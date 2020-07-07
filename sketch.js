@@ -99,7 +99,7 @@ function keyPressed(){
     }
 }
  async function getTime(){
-    var time = await fetch("http://worldtimeapi.org/api/timezone/Asia/kolkata")
+    var time = await fetch("https://worldtimeapi.org/api/timezone/Asia/kolkata")
     var timeJS = await time.json()
     console.log(timeJS)
     var date = timeJS.datetime
