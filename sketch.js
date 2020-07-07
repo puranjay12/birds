@@ -107,7 +107,7 @@ function keyPressed(){
     var hour = date.slice(11,13)
     console.log(hour)
     
-    if(hour>=06&&hour<=19){
+    if(hour<=06&&hour>=19){
         bg = "sprites/bg.png"
     }
     else{
